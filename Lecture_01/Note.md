@@ -14,4 +14,4 @@
 <!--加载MathJax的最新文件， async表示异步加载进来 -->
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
 </script>
-$$ evidence\_{i}=\sum\_{j}W\_{ij}x\_{j}+b\_{i} $$
+$$ evidence_{i}=\sum_{j}W{ij}x_{j}+b_{i}$$
