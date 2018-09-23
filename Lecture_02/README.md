@@ -6,5 +6,7 @@
 ### 3. 算法示例:
 - 示例1[breast_cancer分类](LogisticRegression.py)<br>
 - 示例2[是否录取分类](e2.py)
-![mark](http://petu0wl0m.bkt.clouddn.com/blog/180923/1266GHaK00.png?imageslim)
-![mark](http://petu0wl0m.bkt.clouddn.com/blog/180923/fC8jmkbAhA.png?imageslim)
+    - 可视化
+    ![01](./data/01.png)
+    - 损失图
+    ![02](./data/02.png)    
