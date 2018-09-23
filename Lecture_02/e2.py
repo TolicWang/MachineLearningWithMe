@@ -48,4 +48,6 @@ if __name__ == '__main__':
     print(cost_history[:20])
     visualize_cost(maxIt,cost_history)
     print("accuracys is :         " + str(accuracy(X, y, W, b)))
+    print("W：",W)
+    print("b: ",b)
     print("******************")
