@@ -36,8 +36,6 @@ def gradDescent(X, y, W, b, alpha, maxIt):
         W = W - (1 / m) * alpha * np.dot(X.T, error)
         b = b - (1.0 / m) * alpha * np.sum(error)
         cost_history.append(cost_function(X, y, W, b))
-        if i % 40 == 0:
-            print('loss :', cost_function(X, y, W, b))
     return W, b, cost_history
 
 
@@ -59,16 +57,16 @@ def cost_function(X, y, W, b):
     J = (-1 / m) * np.sum(y * np.log(y_hat) + (1 - y) * np.log(1 - y_hat))
     return J
 
-
-X, y = load_data()
-m, n = X.shape
-alpha = 0.1
-W = np.random.randn(n, 1)
-b = 0.1
-maxIt = 200
-W, b, cost_history = gradDescent(X, y, W, b, alpha, maxIt)
-print("******************")
-print("W is :             ")
-print(W)
-print("accuracy is :         " + str(accuracy(X, y, W, b)))
-print("******************")
+if __name__ == '__main__':
+    X, y = load_data()
+    m, n = X.shape
+    alpha = 0.1
+    W = np.random.randn(n, 1)
+    b = 0.1
+    maxIt = 200
+    W, b, cost_history = gradDescent(X, y, W, b, alpha, maxIt)
+    print("******************")
+    print("W is :             ")
+    print(W)
+    print("accuracy is :         " + str(accuracy(X, y, W, b)))
+    print("******************")
