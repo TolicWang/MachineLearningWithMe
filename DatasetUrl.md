@@ -1,4 +1,5 @@
 # 数据集下载地址集合
+### 如链接失效，请联系 wangchengo@126.com
 
 ### 1.分类
 - [001-印度人糖尿病预测(pima-indians-diabetes)](https://pan.baidu.com/s/1Z2JtgJBafytuMRzPDU8Ncw) 提取码：hfb3
