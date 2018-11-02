@@ -49,5 +49,6 @@
 
  - [数据集集合](./DatasetUrl.md)
  - [案例分析集合](./CaseAnalyse.md)
+ - [章节知识点预览](./Knowledge.md)
    
 # 数据科学与深度学习研究所<br>
