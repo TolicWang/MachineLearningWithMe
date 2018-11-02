@@ -62,7 +62,7 @@ def show_word_cloud(data_dir=None, top_k=None):
             top_k_words[k] = v
     else:
         top_k_words = c
-    matplotlib.rcParams['figure.figsize'] = (20, 10)
+    matplotlib.rcParams['figure.figsize'] = (10, 5)
     word_cloud = WordCloud(font_path='./data/simhei.ttf', background_color='white', max_font_size=70)
     word_cloud = word_cloud.fit_words(top_k_words)
     plt.imshow(word_cloud)
