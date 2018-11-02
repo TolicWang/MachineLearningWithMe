@@ -72,10 +72,12 @@ def load_data_and_labels(positive_data_file, negative_data_file):
     return x_text, y
 
 
-def get_tf_idf(features):
+def get_tf_idf(features,top_k=None):
+    print()
     """
     该函数的作用是得到tfidf特征矩阵
     :param features:
+    :param top_k: 取出现频率最高的前top_k个词为特征向量，默认取全部（即字典长度）
     :return:
 
     example:
@@ -85,7 +87,7 @@ def get_tf_idf(features):
     [0.         0.         0.57615236 0.40993715 0.57615236 0.40993715]]
     """
     print("================Processing in function: %s() !=================" % sys._getframe().f_code.co_name)
-    stopwors_dir = './data/stopwords/中文停用词库.txt'
+    stopwors_dir = './data/stopwords/chinaStopwords.txt'
     stopwords = open(stopwors_dir, encoding='utf-8').read().replace('\n', ' ').split()
     tfidf = TfidfVectorizer(token_pattern=r"(?u)\b\w\w+\b", stop_words=stopwords)
     weight = tfidf.fit_transform(features).toarray()
