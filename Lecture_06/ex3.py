@@ -161,5 +161,5 @@ def eval(data_dir):
 
 if __name__ == "__main__":
     data_dir = './data/sougounews/'
-    train(data_dir, top_k=30000)
-    eval(data_dir)
+    train(data_dir, top_k=30000)#0.8206
+    eval(data_dir)# 0.7872
