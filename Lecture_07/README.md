@@ -16,11 +16,14 @@
 - 2.4 目标函数求解
     - [SVM——（四）目标函数求解](https://blog.csdn.net/the_lastest/article/details/78569092)
 - 2.5 核函数
+    ![p0037](https://github.com/TolicWang/Pictures/blob/master/Pic/p0037.png)
     - [线性不可分之核函数](https://blog.csdn.net/the_lastest/article/details/78569217)
 - 2.6 软间隔
     - [SVM——（六）软间隔目标函数求解](https://blog.csdn.net/the_lastest/article/details/78574813)
 - 2.7 求解目标函数
     - [SVM——（七）SMO（序列最小最优算法）](https://blog.csdn.net/the_lastest/article/details/78637565)
     - [The Simplified SMO Algorithm ](http://cs229.stanford.edu/materials/smo.pdf)          
-
-    
+- 2.8 pipeline
+  ### 3. 示例
+  [基于SVM的人脸识别](./ex1.py)<br>
+  ![p0036](https://github.com/TolicWang/Pictures/blob/master/Pic/p0036.png)<br>
