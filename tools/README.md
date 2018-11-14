@@ -5,3 +5,7 @@
 ![worldcloud](../Lecture_06/data/Figure_1.png)<br>
 [3.如何可视化RGB图](./visiualRGB.py)
 ![p0036](https://github.com/TolicWang/Pictures/blob/master/Pic/p0036.png)<br>
+<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0036.png" width="50">
+
+<img src="../Lecture_06/word_cloud.py" width="50"/>
+<img src="../Lecture_06/word_cloud.py" width="50">
