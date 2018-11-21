@@ -36,4 +36,4 @@
     - 7.2 PCA的使用
     - 7.3 RGB图片的介绍
     - 7.4 pipeline的使用<br>
-### [<主页>](../README.md)
+### [<主页>](./README.md)

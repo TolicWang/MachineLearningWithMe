@@ -14,4 +14,4 @@
 - [2008 基于贝叶斯算法的中文垃圾邮件分类](./Lecture_06/README.md)
 - [2009 基于贝叶斯算法的中文新闻分类](./Lecture_06/README.md)
 - [2010 基于SVM的人脸识别](./Lecture_07/README.md)<br>
-### [<主页>](../README.md)
+### [<主页>](./README.md)
