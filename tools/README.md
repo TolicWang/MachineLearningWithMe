@@ -3,7 +3,7 @@
 <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0028.png" width="60%"><br>
 [2.如何画词云图](../Lecture_06/word_cloud.py)<br>
 ![worldcloud](../Lecture_06/data/Figure_1.png)<br>
-[3.如何可视化RGB图](./visiualRGB.py)<br>
+[3.如何可视化图片](visiualImage.py)<br>
 <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0036.png" width="70%">
 <br>
 <br>
