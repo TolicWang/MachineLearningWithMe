@@ -35,7 +35,5 @@
     - 7.1 支持向量机与核函数
     - 7.2 PCA的使用
     - 7.3 RGB图片的介绍
-    - 7.4 pipeline的使用
-<br>
-<br>
+    - 7.4 pipeline的使用<br>
 ### [<主页>](../README.md)

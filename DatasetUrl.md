@@ -10,7 +10,5 @@
 - [1005-搜狗新闻分类(搜狗实验室)](https://pan.baidu.com/s/1CVLWjTmKht8bQHeep7NSJw) 提取码：44t6
 ### 2.回归
 ### 3.中英文语料库
-- [3001-常用中文停用词表](https://pan.baidu.com/s/1ovGC1RrIOioMNALjsXu9Ow) 提取码: 9jff
-<br>
-<br>
+- [3001-常用中文停用词表](https://pan.baidu.com/s/1ovGC1RrIOioMNALjsXu9Ow) 提取码: 9jff<br>
 ### [<主页>](../README.md)

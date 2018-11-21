@@ -22,5 +22,4 @@
   ### 3. 示例
 p0036](https://github.com/TolicWang/Pictures/blob/master/Pic/p0036.png)<br>
 <br>
-<br>
- ### [<主页>](../README.md) [<下一讲>](../Lecture_09/README.md)
+### [<主页>](../README.md) [<下一讲>](../Lecture_09/README.md)

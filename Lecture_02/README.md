@@ -14,7 +14,5 @@
     ![01](./data/01.png)
     - 损失图
     ![02](./data/02.png)
-- 示例3[用sklearn库实现示例2](e3.py)
-<br>
-<br>
- ### [<主页>](../README.md) [<下一讲>](../Lecture_03/README.md)
+- 示例3[用sklearn库实现示例2](e3.py)<br>
+### [<主页>](../README.md) [<下一讲>](../Lecture_03/README.md)

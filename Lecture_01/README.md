@@ -18,7 +18,5 @@
 涉及知识点：
     1. 数据归一化(feature scalling)
     2. 数据打乱(shuffle)
-    3. 实现梯度下降
-<br>
-<br>
- ### [<主页>](../README.md) [<下一讲>](../Lecture_02/README.md)
+    3. 实现梯度下降<br>
+### [<主页>](../README.md) [<下一讲>](../Lecture_02/README.md)
