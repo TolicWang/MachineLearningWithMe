@@ -15,3 +15,6 @@
 - 示例1[  iris分类](ex1.py)
 ### 4. 任务
 - 4.1 熟悉查看[scikit-learn API](http://scikit-learn.org/stable/modules/classes.html)
+<br>
+<br>
+ ### [<主页>](../README.md) [<下一讲>](../Lecture_05/README.md)

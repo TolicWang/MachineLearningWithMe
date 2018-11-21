@@ -27,3 +27,6 @@
   ### 3. 示例
   [基于SVM的人脸识别](./ex1.py)<br>
   ![p0036](https://github.com/TolicWang/Pictures/blob/master/Pic/p0036.png)<br>
+  <br>
+<br>
+ ### [<主页>](../README.md) [<下一讲>](../Lecture_08/README.md)
