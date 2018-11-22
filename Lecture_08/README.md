@@ -16,6 +16,7 @@
         <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0049.png" width="70%"><br>
         <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0050.png" width="70%"><br>
 - 2.4 基于密度的聚类算法（DBSCAN)
+    - [DBSCAN算法思想](DBSCAN.md)
     - 不需要指定簇个数
     - 可以发现任意形状的簇
     - 擅长找到离群点（异常点检测）
