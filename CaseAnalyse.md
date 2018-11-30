@@ -11,10 +11,10 @@
 - [2005 是否患有糖尿病预测](./Lecture_05/README.md)
 - [2006 泰坦尼克号人员生还预测](./Lecture_05/README.md)
 - [2007 基于贝叶斯算法和编辑距离的单词拼写纠正](./Lecture_06/README.md)
-- [2008 基于贝叶斯算法的中文垃圾邮件分类](./Lecture_06/README.md)
-- [2009 基于贝叶斯算法的中文新闻分类](./Lecture_06/README.md)
+- [2008 基于贝叶斯算法和TF-IDF的中文垃圾邮件分类](./Lecture_06/README.md)
+- [2009 基于贝叶斯算法和TF-IDF的中文新闻分类](./Lecture_06/README.md)
 - [2010 基于SVM的人脸识别](./Lecture_07/README.md)<br>
-
+- [2011 基于决策树和词向量表示的中文垃圾邮件分类](./Lecture_09/README.md)
 ## 3.聚类
 - [3001 基于Kmeans的手写体聚类分析](Lecture_08/README.md)
 ### [<主页>](./README.md)
