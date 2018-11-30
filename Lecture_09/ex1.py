@@ -27,7 +27,7 @@ def load_data_and_labels(positive_data_file, negative_data_file):
         这个怎么这么不正式啊？还上进青年
         我觉得这个不错！
     return:
-    x_text: ['今天 我 很 高兴   你 吃饭 了 吗', '这个 怎么 这么 不 正式 啊   还 上 进 青年', '我 觉得 这个 不错']
+    x_text: [['今天', '我', '很', '高兴'],   ['你', '吃饭', '了', '吗'], ['这个', '怎么', '这么', '不', '正式', '啊', '还', '上进', '青年']]
     y: [1,1,1]
     """
     import logging
@@ -50,6 +50,15 @@ def load_data_and_labels(positive_data_file, negative_data_file):
 
 
 def load_word2vec_model(corpus, vector_dir=None, embedding_dim=50, min_count=5, window=7):
+    """
+    本函数的作用是训练（载入）词向量模型
+    :param corpus: 语料，格式为[['A','B','C'],['D','E']] (两个样本)
+    :param vector_dir: 路径
+    :param embedding_dim: 词向量维度
+    :param min_count: 最小词频数
+    :param window: 滑动窗口大小
+    :return: 训练好的词向量
+    """
     import os
     import gensim
     from gensim.models.word2vec import Word2Vec
@@ -81,6 +90,13 @@ def convert_to_vec(sentences, model):
 
 
 def load_dataset(positive_data, negative_data, vec_dir):
+    """
+    载入数据集
+    :param positive_data:
+    :param negative_data:
+    :param vec_dir:
+    :return:
+    """
     from sklearn.model_selection import train_test_split
     import logging
     logger = logging.getLogger(__name__)
