@@ -11,4 +11,6 @@
 ### 2.回归
 ### 3.中英文语料库
 - [3001-常用中文停用词表](https://pan.baidu.com/s/1ovGC1RrIOioMNALjsXu9Ow) 提取码: 9jff<br>
+
+- [3002-常用词向量](https://github.com/Embedding/Chinese-Word-Vectors)
 ### [<主页>](./README.md)
