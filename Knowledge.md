@@ -53,4 +53,8 @@
     - 11.1 神经网络的求解
     - 11.2 反向传播算法
     - 11.3 如何用Pickle保存变量
+- 第十二讲 [Tensorflow的使用](Lecture_12/README.md)
+    - 12.1 Tensorflow框架简介与安装
+    - 12.2 Tensorflow的运行模式
+    - 12.3 Softmax分类器与交叉熵(Cross entropy)
 ### [<主页>](./README.md)
