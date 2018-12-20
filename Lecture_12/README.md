@@ -10,7 +10,7 @@
 ### 3. 示例
  - [Tensorflow简单示例](./ex1)
  - [基于Tensorflow的波士顿房价预测](./ex2.py)
- - [Tensorflow 两层全连接神经网络拟合正弦函数](./ex3.py)
+ - [Tensorflow 两层全连接神经网络拟合正弦函数](./ex3.py)<br>
   <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0072.png" width="50%"><br>
   <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0073.png" width="50%"><br>
  - [基于Softmax的MNIST手写体识别](./ex4.py)
