@@ -1,6 +1,9 @@
 # 实战案例分析集合
 ## 1.回归
-- [1.1 波士顿房价预测](./Lecture_01/README.md)
+- [1001 波士顿房价预测](./Lecture_01/README.md)
+
+- [1002 基于Tensorflow的波士顿房价预测](./Lecture_12/README.md)
+- [1003 Tensorflow实现两层全连接神经网络拟合正弦函数](./Lecture_12/README.md)
 
 ## 2.分类
 - [2001 是否患癌预测](./Lecture_02/README.md)
@@ -16,6 +19,8 @@
 - [2010 基于SVM的人脸识别](./Lecture_07/README.md)<br>
 - [2011 基于决策树和词向量表示的中文垃圾邮件分类](./Lecture_09/README.md)
 - [2012 三层神经网络手写体识别](./Lecture_11/README.md)
+- [2013 基于Softmax的MNIST手写体识别](./Lecture_12/README.md)
+
 ## 3.聚类
 - [3001 基于Kmeans的手写体聚类分析](Lecture_08/README.md)
 ### [<主页>](./README.md)
