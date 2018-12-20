@@ -1,6 +1,6 @@
 ### 1. 本节参考
    - 1.1 《21项目玩转深度学习》P1-P13
-   - 2.1 《白话深度学习与Tensorflow》第三章
+   - 1.2 《白话深度学习与Tensorflow》第三章
 ### 2. 知识点
  - 2.1 Tensorflow框架简介与安装
  - 2.2 Tensorflow的运行模式
@@ -8,7 +8,7 @@
  - 2.3 Softmax分类器与交叉熵(Cross entropy)
  
 ### 3. 示例
- - [Tensorflow简单示例](./ex1)
+ - [Tensorflow简单示例](./ex1.py)
  - [基于Tensorflow的波士顿房价预测](./ex2.py)
  - [Tensorflow 两层全连接神经网络拟合正弦函数](./ex3.py)<br>
   <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0072.png" width="50%"><br>
