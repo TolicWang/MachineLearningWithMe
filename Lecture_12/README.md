@@ -4,6 +4,7 @@
 ### 2. 知识点
  - 2.1 Tensorflow框架简介与安装
  - 2.2 Tensorflow的运行模式
+    - [Tensorflow的大致运行模式（思想）和占位符](https://blog.csdn.net/The_lastest/article/details/81052658)
  <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0074.gif" width="50%"><br>
  - 2.3 Softmax分类器与交叉熵(Cross entropy)
  
@@ -13,10 +14,12 @@
  - [Tensorflow 两层全连接神经网络拟合正弦函数](./ex3.py)<br>
   <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0072.png" width="50%"><br>
   <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0073.png" width="50%"><br>
+    - [Tensorflow 两层全连接神经网络拟合正弦函数](https://blog.csdn.net/The_lastest/article/details/82848257)
  - [基于Softmax的MNIST手写体识别](./ex4.py)
  
 ### 4. 作业
-- 基于Tensorflow实现一个深层神经网络分类器 
+- 基于Tensorflow实现一个深层神经网络分类器
+    - [参考：TensoFlow全连接网络MNIST数字识别与计算图](https://blog.csdn.net/The_lastest/article/details/81054417)
  
  
 ### 5. 总结
