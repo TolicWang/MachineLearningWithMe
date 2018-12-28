@@ -1,6 +1,6 @@
 # MachineLearningWithMe
 
-
+## 基础篇
 
 - 跟我一起机器学习<br>
 
@@ -17,13 +17,17 @@
     - [x] 第十讲：[初探神经网络](./Lecture_10)
     - [x] 第十一讲：[反向传播算法](./Lecture_11)
     - [x] 第十二讲：[Tensorflow的使用](./Lecture_12)
-    - [ ] 第十三讲：[卷积神经网络](./Lecture_13)
+    - [x] 第十三讲：[卷积神经网络](./Lecture_13)
     - [ ] 第十四讲：[残差网络](./Lecture_14)
     - [ ] 第十五讲：[循环神经网络](./Lecture_15)
-    - [ ] 第十六讲：[生成对抗网络]
-    - ……
-    - [章节知识点检索](./Knowledge.md)
- - [论文集合](./Papers.md)
+## 进阶篇
+- 深度学习到底要多深<br>
+   - [ ] 第一讲：[VGG网络与残差网络]
+   - [ ] 建设中……
+   
+    - [深度学习500问](https://github.com/scutan90/DeepLearning-500-questions)
+## 索引 
+ - [章节知识点检索](./Knowledge.md)
  - [数据集集合](./DatasetUrl.md)
  - [案例分析集合](./CaseAnalyse.md)
  - [函数集合](./tools/README.md)
