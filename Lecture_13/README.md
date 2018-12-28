@@ -6,16 +6,16 @@
 - 1.5  [卷积过程的可视化展示](http://scs.ryerson.ca/~aharley/vis/conv/)
 ### 2. 知识点
 - 2.1 卷积的思想与特点<br>
-<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0083.png" width="70%"><br>
+<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0083.gif" width="70%"><br>
 - 2.2 卷积的过程<br>
-<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0081.png" width="60%">
-<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0082.png" width="60%"><br>
+<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0081.gif" width="60%">
+<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0082.gif" width="60%"><br>
 <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0084.png" width="70%"><br>
 - 2.3 [`Tensorflow`中卷积的使用方法](https://blog.csdn.net/The_lastest/article/details/85269027)
 - 2.4 [ `Tensorflow`中的padding操作](https://blog.csdn.net/The_lastest/article/details/82188187)
 ### 3. 示例
 - [基于LeNet5的手写体识别]()
-<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0084.png" width="70%"><br>
+<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0085.png" width="70%"><br>
 ### 4. 作业
 - [基于卷积的中文垃圾邮件分类]()
 <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0086.png" width="60%"><br>
