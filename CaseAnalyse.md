@@ -19,7 +19,8 @@
 - [2010 基于SVM的人脸识别](./Lecture_07/README.md)<br>
 - [2011 基于决策树和词向量表示的中文垃圾邮件分类](./Lecture_09/README.md)
 - [2012 三层神经网络手写体识别](./Lecture_11/README.md)
-- [2013 基于Softmax的MNIST手写体识别](./Lecture_12/README.md)
+- [2013 基于Softmax分类器的MNIST手写体识别](./Lecture_12/README.md)
+- [2014 基于多层全连接神经网络的MNIST手写体识别](./Lecture_12/README.md)
 
 ## 3.聚类
 - [3001 基于Kmeans的手写体聚类分析](Lecture_08/README.md)

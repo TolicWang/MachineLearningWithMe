@@ -57,4 +57,5 @@
     - 12.1 Tensorflow框架简介与安装
     - 12.2 Tensorflow的运行模式
     - 12.3 Softmax分类器与交叉熵(Cross entropy)
+    - 12.4 `tf.add_to_collection`与`tf.nn.in_top_k`
 ### [<主页>](./README.md)
