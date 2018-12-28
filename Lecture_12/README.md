@@ -7,7 +7,9 @@
     - [Tensorflow的大致运行模式（思想）和占位符](https://blog.csdn.net/The_lastest/article/details/81052658)
  <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0074.gif" width="50%"><br>
  - 2.3 Softmax分类器与交叉熵(Cross entropy)
- 
+ - 2.4 `tf.add_to_collection`与`tf.nn.in_top_k`
+ - 2.5 [tf.cast\tf.argmax\tf.argmin](https://blog.csdn.net/The_lastest/article/details/81050778)
+ - 2.6 [softmax_cross_entropy_with_logits & sparse_softmax_cross_entropy_with_logit区别](https://blog.csdn.net/The_lastest/article/details/80994456)
 ### 3. 示例
  - [Tensorflow简单示例](./ex1.py)
  - [基于Tensorflow的波士顿房价预测](./ex2.py)
