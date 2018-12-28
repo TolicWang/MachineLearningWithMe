@@ -8,8 +8,8 @@
 - 2.1 卷积的思想与特点<br>
 <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0083.gif" width="50%"><br>
 - 2.2 卷积的过程<br>
-<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0081.gif" width="40%">
-<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0082.gif" width="40%"><br>
+    <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0081.gif" width="40%">
+    <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0082.gif" width="40%"><br>
 - 2.3[Tensorflow中卷积的使用方法](https://blog.csdn.net/The_lastest/article/details/85269027)
 - 2.4[Tensorflow中的padding操作](https://blog.csdn.net/The_lastest/article/details/82188187) 
 
