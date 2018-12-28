@@ -10,8 +10,8 @@
 - 2.2 卷积的过程<br>
 <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0081.gif" width="40%">
 <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0082.gif" width="40%"><br>
-- 2.3 [Tensorflow中卷积的使用方法](https://blog.csdn.net/The_lastest/article/details/85269027)<br>
-- 2.4 [Tensorflow中的padding操作](https://blog.csdn.net/The_lastest/article/details/82188187)
+- 2.3[Tensorflow中卷积的使用方法](https://blog.csdn.net/The_lastest/article/details/85269027)
+- 2.4[Tensorflow中的padding操作](https://blog.csdn.net/The_lastest/article/details/82188187) 
 
 ### 3. 示例
 - [一次卷积操作](./ex1.py)
