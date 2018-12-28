@@ -58,4 +58,9 @@
     - 12.2 Tensorflow的运行模式
     - 12.3 Softmax分类器与交叉熵(Cross entropy)
     - 12.4 `tf.add_to_collection`与`tf.nn.in_top_k`
+ - 第十三讲 [卷积神经网络](./Lecture_13/README.md)
+     - 2.1 卷积的思想与特点<br>
+    - 2.2 卷积的过程
+    - 2.3 `Tensorflow`中卷积的使用方法
+    - 2.4 `Tensorflow`中的padding操作
 ### [<主页>](./README.md)
