@@ -4,8 +4,13 @@
 [2.如何画词云图](../Lecture_06/word_cloud.py)<br>
 ![worldcloud](../Lecture_06/data/Figure_1.png)<br>
 [3.如何可视化图片](visiualImage.py)<br>
-<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0036.png" width="70%">
-[4. 计算聚类中的准确率和召回率]()
+<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0036.png" width="70%"><br>
+[4.簇分布图](./plot001.py)<br>
+<center>
+<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0093.png" width="70%"><br>
+
+[5.簇分布图](./plot002.py)<br>
+<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0094.png" width="70%"><br>
 <br>
 <br>
 ### [<主页>](../README.md)
