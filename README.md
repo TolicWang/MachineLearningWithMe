@@ -30,6 +30,6 @@
  - [章节知识点检索](./Knowledge.md)
  - [数据集集合](./DatasetUrl.md)
  - [案例分析集合](./CaseAnalyse.md)
- - [函数集合](./tools/README.md)
+ - [数据集可视化集合](./tools/README.md)
    
 # 数据科学与深度学习研究所<br>

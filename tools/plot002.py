@@ -9,7 +9,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.datasets.samples_generator import make_blobs
-from sklearn.cluster import MeanShift, estimate_bandwidth
 
 centers = [[1, 1], [5, 1]]  # 指定簇中心
 x, y = make_blobs(n_samples=400, centers=centers, cluster_std=1.2, random_state=np.random.seed(100))
