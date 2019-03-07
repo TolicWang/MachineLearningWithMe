@@ -11,6 +11,8 @@
 <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0094.png" width="50%"><br>
 [6.簇分布图](./plot003.py)<br>
 <img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0095.png" width="50%"><br>
+[7.簇分布图](./plot004.py)<br>
+<img src ="https://github.com/TolicWang/Pictures/blob/master/Pic/p0096.png" width="50%"><br>
 <br>
 <br>
 ### [<主页>](../README.md)
