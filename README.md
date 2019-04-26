@@ -22,11 +22,10 @@
     - [ ] 第十五讲：[循环神经网络](./Lecture_15)
 ## 进阶篇
 - 深度学习到底要多深<br>
-   - [ ] 第一讲：[VGG网络与残差网络]
    - [ ] 建设中……
-   
-    - [深度学习500问](https://github.com/scutan90/DeepLearning-500-questions)
+
 ## 索引 
+ - [在线书籍](./RecommendBook.md)
  - [章节知识点检索](./Knowledge.md)
  - [数据集集合](./DatasetUrl.md)
  - [案例分析集合](./CaseAnalyse.md)
