@@ -6,7 +6,7 @@
 
   - 例如：`https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-5.3.1-Linux-x86_64.sh`
 
-    ![001](C:\Users\CHENG\Desktop\GitRepository\MachineLearningWithMe\Images\001.png)
+    ![001](../Images/001.png)
 
 - (2) 利用`wget`命令下载anaconda
 
@@ -20,15 +20,16 @@
 
   安装时一路按回车健即可，这一步选择yes添加到环境变量
 
-  ![002](C:\Users\CHENG\Desktop\GitRepository\MachineLearningWithMe\Images\002.png)
+  ![002](../Images/002.png)
 
-  如果没有这一步，安装完成后手动添加到环境变量
+  如果没有这一步，等安装完成后手动添加到环境变量
 
   - `echo 'export PATH="/home/userneme/anaconda3/bin:$PATH"' >> ~/.bashrc`
+  - 激活环境变量 `source .bashrc`
 
   上面的命令要灵活改变，比如用户名和anaconda3这两个部分不同的人不一样
 
-- 激活环境变量 `source .bashrc`
+  ![003](../Images/003.png)
 
 - 检查是否安装成功
 
