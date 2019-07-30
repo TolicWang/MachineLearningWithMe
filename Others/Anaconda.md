@@ -1,6 +1,36 @@
-### 一、安装Anaconda​	
+## 一、安装Anaconda​	
 
-#### 1.下载Anaconda
+### 1.1 Windows环境下：
+
+#### 1.1.1 下载Anaconda
+
+​	在[官网](https://www.anaconda.com/distribution/)下载最新版Windows平台下的Anaconda3安装包
+
+#### 1.1.2 双击安装
+
+- (1)如无特殊说明，保持默认点直接击下一步
+
+  ![0004](../Images/0004.png)
+
+- (2)指定安装目录
+
+  ![0005](../Images/0005.png)
+
+- (3)添加到环境变量
+
+  ![0006](../Images/0006.png)
+
+- (4)安装完成
+
+  ![0007](../Images/0007.png)
+
+- (5)测试是否安装成功（如果出现以下版本信息则说明安装成功）
+
+  ![0008](../Images/0008.png)
+
+### 1.2 Linux环境下：
+
+#### 1.2.1 下载Anaconda
 
 - (1) 在`https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/`找到对应的anaconda版本并复制链接地址
 
@@ -12,7 +42,7 @@
 
   - `wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-5.3.1-Linux-x86_64.sh`
 
-#### 2.  赋权限并安装
+#### 1.2.2  赋权限并安装
 
 - 赋权限 `chmod +x Anaconda3-5.3.1-Linux-x86_64.sh`
 
@@ -37,7 +67,7 @@
 
   如果输入以上命令能正确显示Anaconda版本号则安装成功。
 
-#### 3. 换掉默认anaconda源地址（可选）
+### 1.3 换掉默认anaconda源地址（可选）
 
 ```shell
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
@@ -45,9 +75,9 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/m
 conda config --set show_channel_urls yes
 ```
 
-### 二、Anaconda 环境管理
+## 二、Anaconda 环境管理
 
-#### 1. 创建环境
+### 2.1 创建环境
 
 - 安装好`Anaconda`后在终端种使用`conda create -n env_name`（`-n env_name`表示指定虚拟环境的名称）
 
@@ -57,7 +87,7 @@ conda config --set show_channel_urls yes
 
   <font color = red>注：以上三条命令选择其中之一即可</font>
 
-#### 2. 管理环境
+### 2.2 管理环境
 
 - 创建环境后使用`conda activate env_name`进入该环境，Windows上使用`activate env_name`
 
@@ -67,7 +97,7 @@ conda config --set show_channel_urls yes
 
 - 退出环境`conda deactivate`，Windows上使用`source deactivate`
 
-### 3. 保存和加载环境
+### 2.3 保存和加载环境
 
 - 使用`conda env export > environment.yaml`可将现有的环境配置导出
 - 使用`conda env create -f environment.yaml`可以创建一个和`environment.yaml`配置一样的虚拟环境
