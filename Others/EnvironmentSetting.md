@@ -16,7 +16,7 @@
 
 #### [01. Tensorflow CPU版本安装（待完成）]()
 
-#### [02. Tensorflow GPU版本安装（待完成）]()
+#### [02. Tensorflow GPU版本安装](./Tensorflow_GPU.md)
 
 
 
