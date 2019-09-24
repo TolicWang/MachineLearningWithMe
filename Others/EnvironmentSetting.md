@@ -4,7 +4,7 @@
 
 ### 一、IDE安装及配置
 
-待完成……
+#### [01. Xshell 连接服务器](./Xshell2Service.md)
 
 ### 二、Linux下环境配置
 
