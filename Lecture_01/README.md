@@ -12,7 +12,7 @@
 9. 学习率过大或者过小将会对目标函数产生什么样的影响？<br>
 10. 什么是feature scalling<br>
 
-参考 [线性回归 地址二](https://blog.csdn.net/The_lastest/article/details/82556307)   [地址二](./LinearRegression.md)
+参考 [线性回归 地址一](https://blog.csdn.net/The_lastest/article/details/82556307)   [地址二](./LinearRegression.md)
 
 ### 3. 算法示例:
 - 示例1[波士顿房价预测](LinearRegression.py)<br>
