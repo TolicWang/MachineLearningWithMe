@@ -139,6 +139,8 @@ $$\color{red}{\frac{\partial f}{\partial\vec{l}}=|gradf|=\sqrt{(\frac{\partial f
 故，沿着梯度的方向才能保证函数值的变化率最大。
 参见：[方向导数(Directional derivatives)](https://blog.csdn.net/The_lastest/article/details/77898799)、[梯度(Gradient vectors)](https://blog.csdn.net/The_lastest/article/details/77899206)
 
+函数$f(\cdot)$的（方向）导数反映的是函数$f(\cdot)$在点$P$处的变化率的大小，即$|f'(\cdot)|_P|$越大，函数$f(\cdot)$在该点的变化率越大。为了更快的优化目标函数，我们需要找到满足$|f'(\cdot)|_P|$最大时的情况，由梯度计算公式可知，当且仅当方向导数的方向与梯度的方向一致时，$|f'(\cdot)|_P|$能取得最大值。——2019年10月5日更新
+
 #### <font  color  =red>6.怎么理解梯度下降算法与学习率（Gradient Descent）？</font>
 
 $$w=w-\alpha\frac{\partial J}{\partial w}$$
@@ -156,4 +158,3 @@ $\alpha$过大可能会导致目标函数震荡不能收敛，太小则可能需
 
 对于凸函数而言一定等。对于非凸函数来说，能找到局部最优。
 
-#### 
