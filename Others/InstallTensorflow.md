@@ -1,8 +1,37 @@
-## Tensorflow GPU版本安装
+# Tensorflow 安装
+
+
+
+## 1. Tensorflow CPU版本安装
 
 此处我们通过之前安装好的`Anaconda`来管理环境，所以不用区分Linux还是Windows，安装方式都是一样的。
 
-#### 1. 激活之前用`Anaconda`建立的虚拟环境
+#### 1.1 激活之前用`Anaconda`建立的虚拟环境
+
+​	`conda activate py36` （py36是你自己虚拟环境的名称）
+
+​	如果出现类似如下报错，可先用`source deactivate`命令，然后再使用`conda activate py36`命令。	
+
+```shell
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+If your shell is Bash or a Bourne variant, enable conda for the current user with
+$ echo ". /home/xxxxx/anaconda3/etc/profile.d/conda.sh" >> ~/.bashrc
+```
+#### 1.2  安装CPU版本的Tensorflow
+
+安装cpu版本的Tensorflow较为简单，也没有版本匹配的问题，指定对应版本下面一条命令解决即可：
+
+```python
+pip install tensorflow=1.5.0
+```
+
+
+
+## 2. Tensorflow GPU版本安装
+
+此处我们通过之前安装好的`Anaconda`来管理环境，所以不用区分Linux还是Windows，安装方式都是一样的。
+
+#### 2.1 激活之前用`Anaconda`建立的虚拟环境
 
 ​	`conda activate py36` （py36是你自己虚拟环境的名称）
 
@@ -16,7 +45,7 @@ If your shell is Bash or a Bourne variant, enable conda for the current user wit
 
 ```
 
-#### 2. 安装GPU版本的Tensorflow
+#### 2.2 安装GPU版本的Tensorflow
 
 - （1）查看对应关系
 
@@ -54,7 +83,7 @@ If your shell is Bash or a Bourne variant, enable conda for the current user wit
 
 ​		[参见此处](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/)
 
-#### 3. 检查是否安装成功
+#### 2.3 检查是否安装成功
 
 - 可以通过`pip list`（如果是用`conda install`安装的则使用`conda list`）来查看。
 
