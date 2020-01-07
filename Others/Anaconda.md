@@ -30,7 +30,9 @@
 
 ### 1.2 Linux环境下：
 
-#### 1.2.1 下载Anaconda
+#### 1.2.1 下载Miniconda
+
+Anaconda和Miniconda本质上都一样，Anaconda是拓展自Miniconda，里面包含了更多包比较大，由于我们需要创建自己的虚拟环境，所有可以下载更加小巧的Miniconda，两者用法一模一样。
 
 - (1) 在`https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/`找到对应的anaconda版本并复制链接地址
 
@@ -38,9 +40,10 @@
 
     ![001](../Images/001.png)
 
-- (2) 利用`wget`命令下载anaconda
+- (2) 利用`wget`命令下载anaconda或者minicaonda
 
   - `wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-5.3.1-Linux-x86_64.sh`
+  - `wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh`
 
 #### 1.2.2  赋权限并安装
 
@@ -52,10 +55,7 @@
 
   ![002](../Images/002.png)
 
-  如果没有这一步，等安装完成后手动添加到环境变量
-
-  - `echo 'export PATH="/home/userneme/anaconda3/bin:$PATH"' >> ~/.bashrc`
-  - 激活环境变量 `source .bashrc`
+  如果没有这一步，也无妨继续。
 
   上面的命令要灵活改变，比如用户名和anaconda3这两个部分不同的人不一样
 
@@ -65,9 +65,14 @@
 
   `conda --version`
 
+  如果提示没有找到`conda`命令，则执行`source ~/.bashrc`，再检查是否安装成功，依旧提示没有找到`conda`命令，则手动添加环境变量：
+  
+  - `echo 'export PATH="/home/userneme/anaconda3/bin:$PATH"' >> ~/.bashrc`
+  - 激活 `source ~/.bashrc`
+  
   如果输入以上命令能正确显示Anaconda版本号则安装成功。
 
-### 1.3 换掉默认anaconda源地址（可选）
+### 1.3 换掉默认anaconda源地址（可选，最好替换掉）
 
 ```shell
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
@@ -79,7 +84,7 @@ conda config --set show_channel_urls yes
 
 ### 2.1 创建环境
 
-- 安装好`Anaconda`后在终端种使用`conda create -n env_name`（`-n env_name`表示指定虚拟环境的名称）
+- 安装好`Anaconda`后在终端种使用`conda create -n env_name`（`env_name`表示指定虚拟环境的名称）
 
 - 同时指定虚拟环境的`Python`版本号 `conda create -n env_name python=3.5`
 
